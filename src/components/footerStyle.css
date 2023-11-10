@@ -1,0 +1,68 @@
+.ft {
+  font-family: "Josh";
+  background-color: #f3f3f6;
+}
+
+.footer-web {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+
+.footer-web h1 {
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  padding-right: 9%;
+  width: 38%;
+  color: grey;
+}
+
+.footer-section p {
+  width: 100%;
+}
+.footer-section-final {
+  padding-right: 0;
+  width: 55%;
+  color: grey;
+}
+
+.footer-section-final p {
+  width: 100%;
+}
+
+.pic-ins {
+  width: 90%;
+}
+
+.pic-ins img {
+  height: 118px;
+  width: 118px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-link span {
+  padding-right: 45px;
+  color: grey;
+}
+
+.small-line-footer {
+  margin-left: 100px;
+  border: 0.01rem solid grey;
+  width: 89%;
+  margin-bottom: 10px;
+}
+
+.social i {
+  padding-right: 10%;
+}
+
+.footer-below {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 95.4%;
+  padding-bottom: 10px;
+}
