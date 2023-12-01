@@ -11,9 +11,9 @@ function Footer() {
           <p>+0082 561 43 34</p>
           <p>support@durotan.com</p>
           <div className="social">
-            <i class="fa-brands fa-twitter fa-spin-pulse fa-lg"></i>{" "}
-            <i class="fa-brands fa-facebook fa-spin-pulse fa-lg"></i>
-            <i class="fa-brands fa-instagram fa-spin-pulse fa-lg"></i>
+            <i className="fa-brands fa-twitter fa-spin-pulse fa-lg"></i>{" "}
+            <i className="fa-brands fa-facebook fa-spin-pulse fa-lg"></i>
+            <i className="fa-brands fa-instagram fa-spin-pulse fa-lg"></i>
           </div>
         </div>
 

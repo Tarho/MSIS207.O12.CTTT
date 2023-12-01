@@ -1,34 +1,19 @@
-.wrapper {
-  padding: 50px;
+.whole {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
 }
 
-.image {
-  flex: 1;
+.left img {
+  height: 500px;
+  width: 400px;
+  padding-top: 100px;
+  padding-left: 50px;
 }
 
-.image img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-}
-
-.info-container {
-  flex: 1;
-  padding: 0px 50px;
-}
-
-.info-container h1 {
-  font-weight: 200;
-}
-
-.description #desc {
-  margin: 20px 0px;
-}
-
-.description #price {
-  font-weight: 100;
-  font-size: 40px;
+.right {
+  margin-top: 1%;
 }
 
 .filtercontainer {
@@ -48,34 +33,22 @@
   align-items: center;
 }
 
-.filtercolor #black {
-  width: 20px;
-  height: 20px;
+.filtercolor .color-wrapper {
+  display: inline-block;
+  border: 2px solid transparent;
   border-radius: 50%;
-  background-color: black;
-  margin: 0px 5px;
+  padding: 2px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
-.filtercolor #darkblue {
+.filtercolor .color {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: darkblue;
-  margin: 0px 5px;
-  cursor: pointer;
 }
 
-.filtercolor #gray {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: gray;
-  margin: 0px 5px;
-  cursor: pointer;
-}
-
-.filtercolor h3 {
+.filtercolor p {
   font-size: 20px;
   font-weight: 200;
   padding-right: 10px;
@@ -85,15 +58,20 @@
 .filtersize {
   display: flex;
   align-items: center;
+  margin-left: 100px;
 }
 
 .filtersize p {
-  margin-top: 0px;
+  margin-top: -2px;
   margin-bottom: 0px;
   padding-right: 10px;
 }
 
-.addcontainer button {
+#size {
+  padding-bottom: -1px;
+}
+
+.addcontainer {
   padding: 15px;
   border: 2px solid teal;
   background-color: white;
@@ -101,6 +79,8 @@
   font-weight: 500;
 
   &:hover {
-    background-color: #f8f4f4;
+    border: 2px solid gray;
+    background-color: darkblue;
+    color: white;
   }
 }
