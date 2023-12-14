@@ -1,7 +1,6 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const RegisterController = require('../controller/RegisterController');
-
+const RegisterController = require("../controller/RegisterController");
 
 /**
  * @openapi
@@ -29,7 +28,7 @@ const RegisterController = require('../controller/RegisterController');
  *         description: Error registering the user
  *     tags:
  *       - Register
-*/
+ */
 
-router.post('/Register',RegisterController.RegisterAccount);
+router.post("/Register", RegisterController.RegisterAccount);
 module.exports = router;
